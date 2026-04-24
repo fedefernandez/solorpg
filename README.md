@@ -1,6 +1,6 @@
-## Ironsworn
+## Solo RPGs
 
-This is a repository for hosting a site with some Ironsworn plays.
+This is a repository for hosting a site with some Solo RPG plays.
 
 All the original content is provided under the repository's [LICENSE](LICENSE).
 
