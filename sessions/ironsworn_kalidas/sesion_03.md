@@ -57,18 +57,17 @@ La persona me mira con desgana, pero parece encontrar una oportunidad en esta si
 
 ```
 tbl: Asentamiento: Problema 1d100=Familias en conflicto
-? Está relacionado con las bestias ? (50/50) -> No
 gen: Acción/Descripción/Tema -> Resistir/Misterioso/Estrategia
 ? La persona con la que hablo, quiere atacar ? (Probable) -> No
 => 
   Cerca hay un lugar misterioso, del que surgen peligros. Unos quieren
   simplemente defenderse, otros quieren contratacar.
+```
 
 N: "Ha estado confabulando a mis espaldas, diciendo que no tengo valor. Sólo conseguirán que nos maten."
 PC: "Yo os ayudaré, iré con vosotros y acabaremos con el peligro, pero os pediré algo a cambio."
 N: "¿Qué es lo que quieres?"
 PC: "La mitad de las bestias que habéis robado, pertenecen a mi poblado"
-```
 
 ```
 @ Persuadir
@@ -116,8 +115,26 @@ La bruma de la noche se levantó, pero el sol no calendaba lo suficiente como pa
 
 ```
 @ Descubrir un sitio
-tbl: Nivel Desafío (1d6) -> Problemático
+tbl: Nivel Desafío (1d6) -> Peligroso
 gen: Delve:Nombre -> Túmulo Infernal del Crepúsculo
 gen: Delve:Tema/Dominio -> Túmulo Místico
-[Track:Túmulo|Problemático|0/10]
+[Track:Túmulo|Objetivo:Descrubir el problema|Peligroso|0/10]
 ```
+
+**Enemigos**
+
+| Frecuencia | Tirada | Denizen          | Rango                      |
+| :--------- | :----- | :--------------- | :--------                  |
+| Muy común  | 01–27  | Bonewalker       | Peligroso                  |
+| Común      | 28–41  | ~Zealot~ Espinos | ~Problemático~ Peligroso   |
+| Común      | 42–55  | Haunt            | Formidable                 |
+| Común      | 56–69  | Deep Rat         | Problemático               |
+| Poco común | 70–75  | Wight            | Formidable                 |
+| Poco común | 76–81  | Mystic           | Peligroso                  |
+| Poco común | 82–87  | Thrall           | Peligroso                  |
+| Poco común | 88–93  | Husk             | Formidable                 |
+| Raro       | 94–95  | Blighthound      | Formidable                 |
+| Raro       | 96–97  | Gloom (Anomalía) | Peligroso (Reto de escena) |
+| Raro       | 98–99  | Bonehorde        | Extremo                    |
+| Imprevisto | 00     | The Namesake     | Épico                      |
+
