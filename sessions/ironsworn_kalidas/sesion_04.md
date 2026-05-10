@@ -20,7 +20,7 @@ tbl: Avanzar la amenaza 1d100=40 -> Avanza
 ```
 
 ```
-PC: Esto es un túmulo, por supuesto que hay peligros.
+PC: Esto parece túmulo, por supuesto que hay peligros.
 N: Ya lo avisé, pero la otra opción es huir. Prometiste ayudarnos.
 PC: Está bien, llegaremos al fondo de esto.
 ? Todos entran? (50/50) -> No
@@ -28,7 +28,7 @@ tbl: Cuantos? 1d3=2
 => Entramos Sola, Themon y yo.
 ```
 
-Varios decidieron volver al campamento. Habían hecho su función en el camino pero ahora no encontraban el valor para adentrarse en el túmulo.
+Varios decidieron volver al campamento. Habían hecho su función en el camino pero ahora no encontraban el valor para adentrarse en la cueva.
 
 ```
 @ Adentrarse en las profundidades
