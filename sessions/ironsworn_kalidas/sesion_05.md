@@ -9,7 +9,7 @@ start_date: 2026-05-10
 # Kalidas
 
 ## Sesión 5
-*Fecha: 2026-05-10* | *Duración: 1h*
+*Fecha: 2026-05-10* | *Duración: 1:30h*
 
 ```
 ? Avanza la amenaza ? -> Sí
@@ -34,8 +34,20 @@ gen: Descriptor -> Místico
 ? Tienen mucho tiempo? (Probable) -> Sí
 =>
   Tumba improvisada de cuerpos. Olor pestilente proveniente de aguas negras.
-  Impulso +1 (3)
+  Impulso +2 (5)
+  [PC:Kalidas|Motivación - Capa 1]
   [Track:Túmulo|Objetivo:Descrubir el problema|Peligroso|9/10]
+```
+
+#### Mapa
+
+```mermaid
+flowchart TD
+    A[Entrada] -->|Sola, Themon y yo| B(Restos saqueador)
+    B --> C{Combate contra espinos}
+    C --> D[Línea de poder]
+    D --> E(Edificios)
+    E --> |Coger corazón| G(Fosa común)
 ```
 
 Llegamos a una sala donde emanaba un hedor proveniente de unas aguas negras que recorrían el suelo. Cuerpos abandonados yacían en el suelo, ahora ya meros huesos, pero aún húmedos por la situación de la sala.
@@ -68,7 +80,7 @@ tbl: Efecto místico 1d100=30 -> Inflinjir una suerte maldita
 tbl: Historia: Pista 1d100=25 -> Relacionado con una comunidad oculta o misteriosa
 =>
   Unos antepasados robaron el corazón y trajeron mala suerte a su pueblo
-  +2 Impulso (5)
+  +2 Impulso (6)
 ```
 
 N (Themon): Las historias son ciertas. Hablaban de unos antepasados, que en busca de conocimiento perdido trajeron con ellos un artefacto maldito. Nunca volvieron, y ahora sabemos donde llegaron. 
@@ -96,11 +108,36 @@ Cogí mi colgante, forjado en hierro, y lo mostré a Morter.
 ```
 @ Jurar por el hierro
 tbl: Nivel Desafío (d6) -> Peligroso
-d: Acción=Corazón+2=~4~ 5 [Impulso] vs Desafío=4,5 -> Éxito parcial
+d: Acción=Corazón+2=~4~ 6 [Impulso] vs Desafío=4,6 -> Éxito parcial
 gen: Delve:Name -> Garion
 =>
   El camino no está claro, sólo sé una dirección y un nombre, Garion
   Impulso +1 (3)
   [Track:Curar maldición de Canción de Verano|Juramento|Peligroso 0/10]
-  [Clock:Liberar una criatura o ser|Amenaza 0/10]
+  [Clock:Una criatura o ser se libera|Amenaza 0/10]
+```
+
+```
+@Pasar un tiempo en una comunidad
+d: Acción=Corazón+6=8 vs Desafío=5,8 -> Éxito parcial
+? Son de la misma cultura ? (Probable) -> Sí
+=> Aprovisionarse, +2 de suministros (4)
+```
+
+Pasé un día con el poblado. Estuve hablando con su gente. Compartían más con nosotros de lo que pensaba en un principio. Me propuse como objetivo mejorar las relaciones y todo pasaba por cumplir con mis juramentos.
+
+### Escena 13 *Vuelta al hogar*
+
+```
+@ Seguir una ruta
+d: Acción=Suministros+4=8 vs Desafío=2,9 -> Éxito parcial
+=>
+  La situación me preocupa por no llevar suficiente ayuda
+  -1 Espíritu (3)
+  [Track:Traer de vuelta las bestias|Juramento|Problemático 9/10]
+```
+
+```
+@ Cumplir tu juramento
+d: Progreso=9 vs Desafío=8,10 -> Éxito parcial
 ```
