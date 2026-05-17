@@ -81,6 +81,7 @@ tbl: Historia: Pista 1d100=25 -> Relacionado con una comunidad oculta o misterio
 =>
   Unos antepasados robaron el corazón y trajeron mala suerte a su pueblo
   +2 Impulso (6)
+  [Track:Conectar los Pilares|Juramento|Extremo 0.5/10]
 ```
 
 N (Themon): Las historias son ciertas. Hablaban de unos antepasados, que en busca de conocimiento perdido trajeron con ellos un artefacto maldito. Nunca volvieron, y ahora sabemos donde llegaron. 
@@ -140,4 +141,26 @@ d: Acción=Suministros+4=8 vs Desafío=2,9 -> Éxito parcial
 ```
 @ Cumplir tu juramento
 d: Progreso=9 vs Desafío=8,10 -> Éxito parcial
+gen: Acción/Tema -> Asalto/Secreto
+? Quieren hacer ellos el asalto ? (50/50) -> No
+? Eran humanos ? (50/50) -> Sí
+gen: Asentamiento:Nombre -> Río de Roble
+=>
+  Nave asaltada de pueblo vecino, ahora vacía
+  +1 Realizar un Juramento
+```
+
+N: En estos días esperábamos el barco del pueblo de Río de Roble. Ayer encontramos el barco destrozado cerca de nuestro embarcadero. La nave estaba destrozada, algo se llevaron.
+PC: Sé lo mucho que el pueblo necesita de este comercio. Prometo descubrir qué les ha pasado y restaurar el comercio.
+
+```
+@ Realizar un Juramento
+gen: Nivel de desafío -> Formidable
+gen: Amenaza -> Desmantelar una alianza existente
+d: Acción=Corazón+1+1+4=8 [Vínculo|Juramento] vs Desafío=2,9 -> Éxito parcial
+=>
+  Más preguntas que respuestas
+  +1 Impulso (4)
+  [Track:Restaurar comercio con Río de Roble|Juramento|Formidable 0/10]
+  [Clock:Desmantelar la alianza|Amenaza 0/10]
 ```

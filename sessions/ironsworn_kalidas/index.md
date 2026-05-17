@@ -58,8 +58,15 @@ Los muertos no descansan en las Tierras del Hierro. Por las noches encendemos an
 ## Personaje
 
 **Demeanor**: Compasivo. Siento preocupación por otros y me preocupo de su bienestar.
+- *Virtud*: Cuidar de otra persona o actuar con misericordia
+- *Vicio*: Sufres las consecuencias de darle a otros la oportunidad de tomar ventaja de tu compasión
+- *Liberación*: No mostrar piedad en una situación que era de esperar o necesita de mí
 
 **Motivación**: Perseguir coraje. Actúo de forma valiente y me aseguro de tenerlo presente.
+- *Nivel 1*: Cuando actúo a pesar de un obstáculo terrible
+- *Nivel 2*: Cuando insisto en confiar en alguien y el resultado es positivo
+- *Nivel 3*: Cuando mis palabras o accciones llenan de orgullo a otros y el resultado es positivo
+- *Abandonar*: Cuando permito que el miedo supere o me haga abandonar una tarea importante porque es muy peligrosa
 
 **Trasfondos**
 
